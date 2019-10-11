@@ -1,26 +1,22 @@
 
 .App {
-  /* width: 880px; */
+  width: 880px;
   margin: 0 auto;
-  background-color: #000000;
-  background-image: linear-gradient(147deg, #000000 0%, #04619f 74%);
   text-align: center;
   display: flex;
   color: white;
-  height: 100%;
-
 }
 
 .smurf{
-  border: 4px solid red;
+  border: 2px solid rgb(173, 146, 173);
   width: 40%;
-  margin: 50px 30px 10px 30px;
+  margin: 130px 30px 10px 30px;
 }
 
 .smurfs-form{
-  border: 4px solid green;
+  border: 3px solid rgb(173, 146, 173);
   width: 40%;
-  margin: 50px 30px 10px 30px;
+  margin: 130px 30px 10px 30px;
 }
 
 input {
@@ -60,6 +56,7 @@ button:focus {
 .hr{
   border: 2px solid white;
   width: 60%;
+  margin-bottom: 15px;
 }
 
 
