@@ -23,10 +23,29 @@ In this challenge, you are to build a Smurfs village utilizing context or Redux 
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
 - [ ] What problem does the context API help solve?
+
+-   React Context solves the problem of props drilling. It allows you to share props or state with an indirect child or parent.
+
 - [ ] In your own words, describe `actions`, `reducers` and the `store` and their role in Redux. What does each piece do? Why is the store known as a 'single source of truth' in a redux application?
+
+-  There are 3 fundamental principles that can describe the Redux. It's store,    reducers and actions.
+  - "Store" is an container that holds the application's state tree.
+  - "Reducer" is a function that defines the state changes in your web app's.
+  - "Actions" are collection of information that send data from your application to your store.
+   
 - [ ] What is the difference between Application state and Component state? When would be a good time to use one over the other?
+
+-  "Application state" is global, you can access any component(you can pass it from parent down to child and back) and anywhere in the app by using hooks. 
+
+- "Component State" is lives in specific component and it can only be access within that component and can only be passed down from parent to child via props.
+
 - [ ] Describe `redux-thunk`, what does it allow us to do? How does it change our `action-creators`?
+
+- "Redux Thunk" middleware allows you to write action creators that return a function instead of an action. The thunk can be used to delay the dispatch of an action, or to dispatch only if a certain condition is met.
+
 - [ ] What is your favorite state management system you've learned and this sprint? Please explain why!
+
+- This Sprint we learned "Context API" and "Redux" State Management. I liked the Redux more for predictability and more control over the component states which allows to build consistant apps.
 
 ## Project Set Up
 
